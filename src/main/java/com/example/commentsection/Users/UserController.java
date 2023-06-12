@@ -27,7 +27,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("api/v1/user")
-@CrossOrigin("http://localhost:3000")
+@CrossOrigin("https://interactivecomment-section-frontend.vercel.app")
 public class UserController {
     @Autowired
     private Mapper mapper;
