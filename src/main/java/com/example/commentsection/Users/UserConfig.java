@@ -32,6 +32,10 @@ public class UserConfig {
         
         Comment c2 = new Comment("Woah, your project looks awesome! How long have you been coding for? I'm still new, but think I want to dive into React as well soon. Perhaps you can give me an insight on where I can learn React? Thanks!",u3);
         Comment r2 = new Comment("I couldn't agree more with this. Everything moves so fast and it always seems like everyone knows the newest library/framework. But the fundamentals are what stay constant.",u1);
+        c1.setScore(12);
+        c2.setScore(5);
+        r1.setScore(4);
+        r2.setScore(2);
         c1.setCreateAt(LocalDateTime.of(LocalDate.of(2023,6,3),LocalTime.of(10,0,0)));
         c2.setCreateAt(LocalDateTime.of(LocalDate.of(2023,5,3),LocalTime.of(15,0,0)));
         r1.setCreateAt(LocalDateTime.of(LocalDate.of(2023,5,25),LocalTime.of(19,0,0)));
